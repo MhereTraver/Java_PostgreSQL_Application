@@ -1,0 +1,82 @@
+
+/* 
+    Created on : 19 Sept 2024, 07:59:44
+    Author     : mhere
+*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family:  sans-serif;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #0c0000;
+  --second-bg-color: #112e42;
+  --text-color: white;
+  --main-color: #00ffee;
+  --purple-color: #754ef9;
+  --orange-main-color: rgba(228, 155, 7, 0.862);
+  --green-main-color: #2e8502;
+}
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  height: 500px;
+  
+}
+
+img{
+    width: 100%;
+    height: 60vh;
+}
+.btn {
+  display: inline-block;
+  margin-left: 40%;
+  margin-top: 2%;
+  padding: 1rem 2.8rem;
+  background: orange;
+  box-shadow: 0 0 25px var(--purple-color);
+  border-radius: 4rem;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: black;
+  border: 2px solid transparent;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 50px #0ef;
+}
+
+ h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 3px;
+  color: #0ef;
+  padding-left: 30%;
+}
+
+.btn2{
+    width: 100%;
+    height: 45px;
+    background: orange;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #1f293a;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 50px #0ef;
+}
+
+

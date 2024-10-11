@@ -1,0 +1,118 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 19 Sept 2024, 08:00:06
+    Author     : mhere
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+    
+}
+.wrapper{
+    position: relative;
+    width: 400px;
+    height: 650px;
+    background: #000;
+    box-shadow: 0 0 50px purple;
+    border-radius: 20px;
+    padding: 40px;
+    transition: 0.3s ease-in-out;
+}
+.wrapper:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 50px white;
+}
+.form-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+h2{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.input-group{
+    position: relative;
+    margin: 30px 0;
+    border-bottom: 2px solid #fff;
+}
+.input-group label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s
+}
+.input-group input{
+    width: 320px;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 5px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.input-group input:focus~label,
+.input-group input:valid~label{
+    top: -5px;
+     border-color: #0ef;
+}
+button{
+    width: 50%;
+    height: 40px;
+    background: #0ef;
+    box-shadow: 0 0 10px #0ef;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    outline: none; 
+    transition: 0.3s ease-in-out;
+    margin-left: 25%
+}
+.button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 50px white;
+}
+.signup-link{
+    margin: 20px 0 10px;
+    text-align: center
+}
+.signup-link a{
+    font-size: 1em;
+    color: #0ef;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+.signup-link a:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 50px white; 
+}
+
